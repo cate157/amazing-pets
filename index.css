@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(222,184,135,.6)), url('./images/anotherpet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(222, 184, 135);
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.appbar>nav {
+    width: 35%;
+    height: 100%;
+}
+
+.navigation {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navigation li a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: burlywood;
+}
+
+h2 {
+    text-align: center;
+    margin: 1.25rem 0;
+    font-size: 1.75rem;
+    color: burlywood;
+}
+
+.info {
+    color: burlywood;
+}
+
+.info span {
+    display: block;
+}
+
+.info .last {
+    text-align: center;
+}
+
+article {
+    padding: 1.25rem .75rem;
+    margin: 1.5rem 0;
+    border-bottom: 1px solid burlywood;
+}
+
+.last-article {
+    margin-bottom: 0;
+    border: none;
+}
+
+article>img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1.25rem;
+}
+
+.another-cuteOne>img {
+    float: right;
+    margin-left: 1.25rem;
+}
+
+footer {
+    background-color: burlywood;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
