@@ -86,7 +86,7 @@ article {
 
 article>img {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 25px;
     float: left;
     margin-right: 1.25rem;
 }
